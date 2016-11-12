@@ -1,0 +1,609 @@
+@charset "UTF-8";
+/*全局样式：如果你以后设置有新的样式会覆盖全局样式*/
+*{
+	margin: 0px;/*外边距*/
+	padding: 0px;/*内边距*/
+	box-sizing: border-box;/*加上边框不会给变宽度*/
+}
+a{
+	font-size: 12px;/*页面所有的字都是12px;*/
+	text-decoration: none;/*把所有a标签的下划线去掉*/
+	color: black;/*页面所有a标签的字都设置成黑色  默认是蓝色*/
+}
+li{
+	list-style: none;/*所有li的点都取消*/
+	
+}
+/*整个页面的设置*/
+#body{
+	margin: 0 auto;/*真个页面居中*/
+	border: 1px solid red;/*加个边框 方便看 等做完要删除的*/
+	width: 1570px;/*宽*/
+	height: 7040px;/*高*/
+}
+/*头部的设置*/
+#header{
+	height: 150px;/*高*/
+	background:#323232 ;/*背景色*/
+	line-height: 28px;/*行高                         高和行高一起用可以让文字居中*/
+	
+}
+/*烦躁了改图片 你们没有这一步,我是自己懒得截图出的错误 得该图片来弥补*/
+.img1{
+	width: 60px;
+	height: 18px;
+}
+.img2{
+	height: 6px;
+	width: 12px;
+}
+.img3{
+	height: 18px;
+	width: 18px;
+}
+
+/*左边的ul导航*/
+.header_ul1{
+	float: left;/*浮动可以让竖着排列的li 横着排列 */
+	margin: 0px;
+
+	
+}
+.header_ul1 li{
+	float: left;
+	margin-left:30px ;
+	
+	
+}
+.header_index{
+	height: 30px;
+}
+/*右边的ul导航*/
+.header_ul2{
+	float: right;
+	height: 30px;
+	margin: 0px;
+}
+/*放大镜的动态效果*/
+
+.from1{
+	width:222px ;
+	height:20px ;
+	border-radius: 4px;
+	margin-top: 6px;
+	position: relative;
+	
+}
+#funK{
+	height: 20px;
+	outline: none;
+	/*background:#323232 ;*/
+	border: none;
+	position: absolute;
+	border-radius: 4px;
+	left: 0;
+	top: 0;
+	
+}
+
+.fun{
+	width: 50px;
+	height: 20px;
+	position: absolute;
+	left: 170px;
+	top: 0px;
+	background: url(../images/fdj.jpg) no-repeat center;
+	background-size: 20px;
+	border: none;
+	outline: none;
+}
+.funLImg{
+	float: left;
+	width: 30px;
+	height: 30px;
+}
+
+/*创建的搜索框下拉的框*/
+.funDiv{
+	width: 200px;
+	height: 250px;
+	background: white;
+	position: absolute;
+	top: 30px;
+	right: 252px;
+	z-index: 1;
+	display: none;
+}
+
+.funLi{
+	width: 200px;
+	height: 20px;
+}
+.funLa{
+	color: #C0C0C0;
+}
+.funLp{
+	width: 200px;
+	height: 35px;
+	line-height: 35px;
+	border-bottom:1px solid #C0C0C0 ;
+}
+.funLImg{
+	margin-top: 2px;
+	color: #C0C0C0;
+}
+.funLspan{
+	font-size: 15px;
+	color: #C0C0C0;
+}
+
+.header_ul2 li{/*.header_ul2 里的所有的li的设置*/
+	float: left;
+	margin-right:15px;
+}
+#header a{/*#header 里的所有的a的设置*/
+	color: #c0c0c0;
+	
+}
+
+#header img{/*#header 里的所有的img的设置*/
+	vertical-align: middle;
+}
+.header_ul2:last-child{/*最后一个li*/
+	padding-right: 15px;
+}
+/*头部的log*/
+.header_log{
+	clear: both;
+	height: 120px;
+	background: url(../images/beijing.jpg) repeat center;/*添加背景*/
+	position: relative;
+}
+/*.header_log ul{
+	float: left;
+}*/
+.header_log li{
+	float: left;
+}
+/*logt图标*/
+.header_log_img1{
+	margin: 30px 25px 0px 230px;
+}
+/*搜索框*/
+.header_log_li2{
+	width: 475px;
+	height: 40px;
+	border: 1px solid #ffffff;
+	background: #ffffff;
+	border-radius: 18px;
+	margin: 40px 13px 0 0;
+	padding: 0 30px 0 25px;
+	line-height: 40px;
+	
+}
+.header_log_li2_input1{
+	border: none;/*无边框*/
+	font-size: 12px;
+	color: #c3d1e9;
+	padding-right: 180px;
+	outline: none;
+}
+/*搜索按钮*/
+.header_log_li2_input2{
+	font-size: 18px;
+	color: #00b081;
+	margin-left: 10px;
+	border: none;
+	background: none;
+	outline: none;
+	
+}
+/*放大镜图片*/
+.header_log_img2{
+	width: 18px;/*宽*/
+	height: 18px;/*高*/
+	vertical-align: middle;
+}
+/*头部的log 右边用div 加的背景*/
+.header_log_bg1{
+	width: 420px;
+	height: 120px;
+	background: url(../images/head-wordbg.png) no-repeat center;
+	position: absolute;
+	top: 0px;
+	left: 1140px;
+	
+}
+
+/*背景加背景*/
+.header_log_bg2{
+	margin-left: 235px;
+	background: url(../images/top-app-bg.png) no-repeat center;
+	width: 50px;
+	height: 100px;
+}
+/*背景加背景 加图片*/
+.header_log_bg2 img{
+	width: 30px;
+	height: 55px;
+	margin: 15px 0 0 10px;
+}
+/*导航*/
+#nav{
+	height: 50px;
+	line-height: 50px;
+	clear: both;
+	position: relative;
+}
+#nav ul{
+	margin-left: 240px;
+}
+#nav li{
+	float: left;
+	margin-right: 60px;
+}
+#nav li:hover{
+	color: lightgreen;
+}
+.floctD_img1{
+	width: 37px;
+	height: 12px;
+	font-size: 0;
+	position: absolute;
+	top: 2px;
+	left: 505px;
+}
+
+/*table菜单*/ 
+.tab{
+	position: absolute;
+	top: 201px;
+	left: 240px;
+	width:280px ;
+	height: 420px;
+	background: #323232;
+	opacity: 0.9;
+
+}
+
+.leftli{
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.leftImg{
+	width: 22px;
+	height: 22px;
+	margin:15px 15px 0 20px; 
+	float: left;
+}
+.somDiv{
+	float: left;
+	width: 180px;
+	height: 35px;
+	margin-top: 15px;
+
+}
+.tab p{
+	color: #c0c0c0;
+	margin-left: 5px;
+	font-size: 12px;
+}
+.tab span{	
+	color: #c0c0c0;
+}
+.tab h3{
+	color: white;
+	font-size: 18px;
+	line-height: 18px;
+}
+.tab li:hover h3{
+	color: black;
+}
+.tab p,h3{
+	line-height: 18px;
+}
+
+
+.div_right{
+	background: white;
+	position: absolute;
+	width: 650px;
+	height: 420px;
+	top: 0px;
+	left: 280px;
+	/*opacity: 1;*/
+	display: none;
+	padding: 20px;
+}
+.Div1{
+	width: 280px;
+	height: 400px;
+	float: left;
+}
+.Div2{
+	width: 280px;
+	height: 400px;
+	float: right;
+	
+}
+.tabRh1{
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #C0C0C0;
+}
+.tab_ul{
+	margin-bottom: 175px;
+}
+.rigthli1,.rigthli2{
+	height: 25px;
+	line-height: 25px;
+	float: left;
+	margin-right: 10px;
+}
+
+/*没有修改*/
+/*4涨小图*/
+.xt {
+	height: 150px;
+}
+.xt ul{
+	margin-left: 220px;
+}
+.xt li{
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	
+}
+.Xtime{
+	height: 280px;
+	background: #f5f5f5;
+}
+.Xtime_div{
+	width: 1160px;
+	margin-left: 230px;
+}
+.Xtime_div h1{
+	float: left;
+	margin: 40px 15px 30px 0;
+}
+.Xtime_div_span{
+	float: left;
+	margin-top: 55px;
+}
+.Xtime ul{
+	clear: both;
+}
+.Xtime li{
+	width: 360px;
+	height: 126px;
+	border: 1px solid black;
+	float: left;
+	margin-right: 26px;
+}
+.Xtime li img{
+	border-top: 5px solid #474747;
+	margin-right: 15px;
+	float: left;
+}
+.Xtime li div{
+	border-top: 5px solid #ff7467;
+	
+}
+.Xtime li p{
+	margin-top: 20px;
+}
+.span1{
+	color: red;
+	font-size: 25px;
+	margin-left:130px ;
+}
+.huan{
+	float: right;
+	margin-top: 50px;
+}
+/*中间部分*/
+#main{
+
+	margin:  0 auto;
+}
+.main_top_left{
+	float: left;
+}
+/*tab酒店自由行*/
+#main_top{
+	width: 1156px;
+	height: 700px;
+	margin:  0 auto;
+	color: #636363;
+}
+.titile2 a{
+	color: #636363;
+}
+.titile1{
+float: left;	
+}
+.titile1 li{
+	float: left;
+	margin-right:10px ;
+	font-size: 15px;
+}
+.titile1 li h3{
+	font-size: 33px;
+	color: #000000;
+}
+.titile2 {
+	float: right;
+}
+.titile2 li{
+	float: left;
+	margin-left: 35px;
+}
+.main_top_titile{
+	padding: 40px 0 34px 0;
+}
+/*图片左边以一张图*/
+.mainImg1{
+	width: 574px;
+	height: 269px;
+	position: relative;
+	margin-bottom: 20px;
+
+}
+.mainImg1 img{
+	width: 574px;
+	height: 269px;
+}
+.pos1{
+height: 40px;
+width: 575px;
+line-height: 40px;
+color: white;
+opacity: 0.9;
+font-size: 14px;
+
+}
+.pos1 li{
+	float: left;
+	text-align: center;
+}
+.divli{
+	width: 68px;
+	height: 40px;
+	background: #342d28;
+}
+.pos1 span{
+	font-size:20px ;
+}
+.divRed{
+	height: 40px;
+	background: #ff7467;
+	width: 100px;
+}
+.pos2{
+	height: 80px;
+	padding:20px 0 0 10px ;
+	background: #342d28;
+	opacity: 0.5;
+	color: white;
+
+}
+
+.dw_ul{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	
+}
+/*第二张图*/
+.mainImg2{
+	width: 575px;
+	height: 267px;
+	/*margin-top: 20px;*/
+	font-size: 12px;
+	position: relative;
+}
+.mainImg2_first{
+	width: 277px;
+	height: 267px;
+	border: 1px solid gainsboro;
+/*	margin-right: 20px;*/
+	float: left;
+	position: relative;
+}
+.mainImg2_last{
+	width: 277px;
+	height: 267px;
+	border: 1px solid gainsboro;
+	float: right;
+	position: relative;
+}
+.mainImg2 img{
+	width: 275px;
+	height:175px ;
+	
+}
+.mainImg2 p{
+	font-size: 18px;
+}
+.mainImg2 li span{
+	font-size: 18px;
+}
+.mainImg2 ul li{
+	float: left;
+}
+.allLi1{
+	width:70px ;
+	height:35px ;
+	line-height: 35px;
+	background: #342D28;
+	opacity: 0.9;
+	text-align: center;
+
+}
+.allLi2{
+	width:105px ;
+	height:35px ;
+	line-height: 35px;
+	background: #ff7467;
+	opacity: 0.9;
+	text-align: center;
+
+}
+.allLi1_ul{
+	position: absolute;
+	bottom: 90px;
+	left: 0px;
+}
+.allLi2_ul{
+	position: absolute;
+	bottom: 90px;
+	left: 0px;
+}
+.main_top_right{
+	float: right;
+}
+.rig_div{
+	margin-top: 20px;
+}
+.rig_div li{
+	float: left;
+}
+.rig_div_ul{
+	position: absolute;
+	bottom: 80px;
+	left: 0px;
+}
+.somany{
+	background: url(../images/beijing2.jpg) repeat center;
+	width: 277px;
+	height: 267px;
+	border: 1px solid gainsboro;
+	float: right;
+	text-align: center;
+	
+}
+.somany a{
+	color: white;
+	
+	}
+.somany_ul li{
+	float: left;
+	
+	
+}
+.somany_ul li a{
+	background: url(../images/shudao.jpg) no-repeat right;
+	padding: 0 10px 0 10px;
+	display: inline-block;
+	color: white;
+
+}
+.somany p:first-child{
+	margin-top: 35px;
+}
+.somany_ul{
+	margin-left: 30px;
+}

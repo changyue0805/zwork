@@ -1,0 +1,232 @@
+/*第二个页面*/
+*{
+	font-size: 12px;
+}
+.cityHeaderlog{
+	height: 120px;
+	background: white;
+	padding-top: 45px;
+	
+}
+.cityHeaderlog li{
+	float: left;
+}
+.cityHeaderImg{
+	margin: 0px 55px 0px 235px;
+}
+
+.cityHeaderLi2{
+	width: 600px;
+	border-radius: 16px;
+	height: 40px;
+	line-height: 40px;
+	background: #f0f0f0;
+}
+.cityHeaderLi2 input{
+	height: 35px;
+	line-height: 35px;
+	border: none;
+	outline: none;
+	background: none;
+}
+.cityHeaderLi2 img{
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.cityHeaderLi3{
+	margin-left: 60px;
+}
+.cityHeaderLi3 span{
+	font-size: 12px;
+	color: #bbbbc1;
+}
+/*导航*/
+.nav{
+	border-bottom: 2px solid #45c79f;
+}
+/*图片*/
+.bannerCtiy_img{
+	width: 1570px;
+}
+.nav img{
+	vertical-align: middle;
+	margin-left: 10px;
+}
+/*导航*/
+.main_top{
+	height: 100px;
+	line-height: 100px;	
+	padding-left: 200px;
+}
+
+
+
+/*信息循环*/
+
+.cityDiv{
+	width: 1570px;
+	height: 270px;
+	border: 1px solid red;
+	padding-left: 200px;
+}
+.main_top ul li{
+	float: left;
+	margin-left: 20px;
+	font-size: 12px;
+}
+.main_top span{
+	font-size: 12px;
+	margin-right: 10px;
+	margin-left: 22px;
+}
+.spanC{
+	background: #12af7e;
+	color: white;
+	width:40px ;
+	height: 20px;
+	padding: 2px 2px 2px 0px;
+
+}
+.main_center{
+	height: 85px;
+	line-height: 85px;
+	background: #33312e;
+	padding-left: 200px;
+}
+.main_center li{
+	float:left ;
+	color: white;
+	margin-left: 35px;
+}
+.main_top li a:hover{
+	color: #12af7e;
+}
+.main_center li:hover{
+	color: #12af7e;
+}
+.main_center input{
+	vertical-align: middle;
+}
+.main_bottom{
+	background: #33312e;
+	/*height:1805px ;*/
+	position: relative;
+	overflow: hidden;
+	height: 588px;
+}
+/*遍历的li*/
+.cityLi{
+	height: 280px;
+	margin-bottom: 25px;
+	background: white;
+	position: relative;
+}
+/*遍历的图片*/
+.ctiyUl{
+	width: 1117px;
+    background: black;
+    /*height: 280px;*/
+    margin-left: 200px;
+}
+.cityImg{
+	float: left;
+}
+.citySpan1{
+	margin-left: 20px;
+	border: 1px solid gray;
+	width: 40px;
+	height: 30px;
+	line-height: 30px;
+	color: #636363;
+
+}
+.citySpan2{
+	margin-left: 475px;
+	color: #12af7e;
+	margin-right: 6px;
+}
+.citySpan3,.citySpan5{
+	color: #636363;
+	margin-right: 6px;
+}
+.citySpan4{
+	color: #12af7e;
+	margin-right: 6px;
+}
+
+.cityH3{
+	position: absolute;
+    left: 445px;
+    margin:20px 0px;
+    font-size:25px ;
+    width: 605px;
+    line-height: 35px;
+}
+.ul{
+	position: absolute;
+    left: 450px;
+    margin-top: 125px;
+}
+.li{
+	height: 22px;
+	line-height: 22px;
+	color:#636363;
+}
+.img{
+	/*position: absolute;*/
+	float: left;
+	vertical-align: middle;
+	margin: 4px;
+}
+.citySpan6{
+	position: absolute;
+	margin-left:10px;
+	margin-top: 200px;
+	left: 934px;
+	text-decoration: line-through;
+	color:#636363;
+}
+.citySpan7{
+	position: absolute;
+	margin-left:10px;
+	margin-top: 188px;
+	left: 980px;
+	color: red;
+	font-size: 30px;
+}
+.citySpan8{
+	position: absolute;
+	margin-left:10px;
+	margin-top: 200px;
+	left: 1054px;
+	color:#636363;
+}
+.cityInput{
+	width: 175px;
+	height: 56px;
+	background: #ff7362;
+	border: none;
+	position: absolute;
+	left: 942px;
+	margin-top: 224px;
+	color: white;
+	font-size: 20px;
+}
+/*下一页*/
+#lastYe{
+    height: 588px;
+	border: 1px solid red;
+	background: burlywood;
+	
+}
+.Ye{
+	font-size: 20px;
+    margin-right: 247px;
+    margin-top: 10px;
+    float: right;
+}
+.Ye li{
+	float: left;
+	margin-left: 20px;
+	cursor: pointer;
+}
